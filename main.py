@@ -44,7 +44,6 @@ if __name__ == '__main__':
     plt.plot(timestamps, temperatures, color='red')
     plt.xticks(rotation=90)
     plt.bar(timestamps, rain)
-    plt.xlabel('Date')
-    plt.ylabel("Temperature (Celsius)\nPrecipitation (mm)")
+    plt.legend(["Temperature (Celsius)", "Precipitation (mm)"])
     plt.show()
 

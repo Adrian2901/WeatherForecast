@@ -16,7 +16,9 @@ Download the project files, or clone them directly by using:
 gh repo clone Adrian2901/WeatherForecast
 ```
 
-And then run the main.py script through Command Prompt/Terminal:
+Since this script is using OpenWeatherMapsAPI, you will need to enter your own API key. To do that, get the key from [OpenWeatherMaps's website](https://openweathermap.org/api), and edit the empty value in config.py.
+
+Then you'll be able to run the main.py script through Command Prompt/Terminal:
 ```bash
 python main.py
 ```
